@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * Simple Server
@@ -21,5 +21,5 @@ const requestHandler = (req,res) => {
 };
 
 const app = http.createServer(requestHandler);
-app.listen(process.env.PORT, () => console.log('server up') );
+app.listen(process.env.PORT, () => console.log('server up') )
 
